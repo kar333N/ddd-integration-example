@@ -75,7 +75,7 @@ project-root/
 ```
 ## Требования
 
-*   PHP >= 7.4
+*   PHP >= 8.3
 *   Composer
 
 ## Установка
