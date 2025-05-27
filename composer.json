@@ -1,0 +1,17 @@
+{
+  "name": "example/ddd-shared-kernel",
+  "description": "DDD Shared Kernel Example in PHP",
+  "autoload": {
+    "psr-4": {
+      "App\\SharedKernel\\": "src/SharedKernel/",
+      "App\\CourseManagement\\": "src/CourseManagement/",
+      "App\\StudentEnrollment\\": "src/StudentEnrollment/",
+      "App\\ProgressTracking\\": "src/ProgressTracking/",
+      "App\\Reporting\\": "src/Reporting/"
+    }
+  },
+  "require": {
+    "php": ">=8.3",
+    "ramsey/uuid": "^4.1"
+  }
+}
